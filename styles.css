@@ -1,0 +1,84 @@
+body {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: larger;
+}
+
+.header-content{
+    position: absolute;
+    top: 9em;
+    left:15px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.buttons{
+    position: absolute;
+    top: 22em;
+    left:14px;
+}
+h2 span{
+    color: rgb(18, 164, 18);
+}
+button{
+    margin: 5px;
+    height: 30px;
+    width:200px;
+    border-radius: 8px;
+    background-color: #000000;
+    color:aliceblue;
+    border: 0;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.header .logo{
+    margin-right: 16px;
+}
+
+.bgr{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+
+}
+ 
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+
+}
+
+
+
+
+
